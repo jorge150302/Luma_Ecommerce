@@ -1,0 +1,7 @@
+{
+    "submitbutton": "#send2",
+    "emailinput": "#email",
+    "requiredpass": "#advice-required-entry-pass",
+    "passwordinput": "#pass",
+    "requiredemail": "#advice-required-entry-email"
+}
