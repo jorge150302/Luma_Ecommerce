@@ -3,5 +3,10 @@
     "emailinput": "#email",
     "requiredpass": "#advice-required-entry-pass",
     "passwordinput": "#pass",
-    "requiredemail": "#advice-required-entry-email"
+    "requiredemail": "#advice-required-entry-email",
+    "invalidLoginOrPassword": ".error-msg > ul > li",
+    "forgotYourPassword": ".col-2 > .content > .form-list > li > .f-left",
+    "forgotPassworEmailInput": ".fieldset > .form-list > li > .input-box > #email_address",
+    "forgotPassworSubmitButton": "#form-validate > .buttons-set > .button > span > span",
+    "successMessageForgotEmail": ".success-msg > ul > li"
 }
