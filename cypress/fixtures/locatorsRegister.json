@@ -1,0 +1,10 @@
+{
+    "requieredFirstName": "#advice-required-entry-firstname",
+    "requieredLastName": "#advice-required-entry-lastname",
+    "requiredEmailAdress": "#advice-required-entry-email_address",
+    "requiredPassword": "#advice-required-entry-password",
+    "requiredConfirmPassword": "#advice-required-entry-confirmation",
+    "TextRequired": "This is a required field.",
+    "WrongEmail": "#advice-validate-email-email_address",
+    "WrongEmailText": "Please enter a valid email address. For example johndoe@domain.com."
+}
