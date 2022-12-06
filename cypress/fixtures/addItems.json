@@ -1,0 +1,15 @@
+
+{
+    "button_women_category":"#header-nav",
+    "button_top_blouse": ".level1 nav-1-2 menu-active",
+    "head_img" :".category-image > img",
+    "button_view": ".button btn-cart",
+    "button_color": "#swatch21",
+    "button_size" : "#option79",
+    "button_add" : ".add-to-cart",
+    "qty_put":"#qty",
+    "requiredColor":"#advice-required-entry-attribute92",
+    "requiredSize":".validation-advice",
+    "headerText":"h1"
+    
+}
