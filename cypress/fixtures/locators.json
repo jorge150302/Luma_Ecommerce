@@ -8,5 +8,9 @@
     "forgotYourPassword": ".col-2 > .content > .form-list > li > .f-left",
     "forgotPassworEmailInput": ".fieldset > .form-list > li > .input-box > #email_address",
     "forgotPassworSubmitButton": "#form-validate > .buttons-set > .button > span > span",
-    "successMessageForgotEmail": ".success-msg > ul > li"
+    "successMessageForgotEmail": ".success-msg > ul > li",
+    "newArrivals": ".nav-2-1 > .level1",
+    "addToWishlist1": ".item:nth-child(2) > .product-info > .actions > .add-to-links > li > .link-wishlist",
+    "addToWishlist2": ":nth-child(1) > .product-info > .actions > .add-to-links > :nth-child(1) > .link-wishlist",
+    "jewerelyBracelets": ".nav-primary > .level0 > .level0 > .nav-3-2 > .level1"
 }

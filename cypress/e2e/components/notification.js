@@ -18,10 +18,15 @@ const checkSuccessMessage = successMessageForgotEmail => {
     cy.get('.success-msg > ul > li').should('contain', successMessageForgotEmail)
 }
 
+const whishlistMessage = addedToWhishlist => {
+    cy.get('.success-msg > ul > li').should('contain', addedToWhishlist)
+}
+
 export default {
     checkAccount,
     checkEmail,
     checkPassword,
     checkLogin,
-    checkSuccessMessage
+    checkSuccessMessage,
+    whishlistMessage
 }
