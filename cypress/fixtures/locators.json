@@ -9,8 +9,23 @@
     "forgotPassworEmailInput": ".fieldset > .form-list > li > .input-box > #email_address",
     "forgotPassworSubmitButton": "#form-validate > .buttons-set > .button > span > span",
     "successMessageForgotEmail": ".success-msg > ul > li",
-    "newArrivals": ".nav-2-1 > .level1",
+    "WomennewArrivals": "#nav > ol > li.level0.nav-1.first.parent > ul > li.level1.nav-1-1.first > a",
+    "WomenTop": "#nav > ol > li.level0.nav-1.first.parent > ul > li.level1.nav-1-2 > a",
+    "WomenPants": "#nav > ol > li.level0.nav-1.first.parent > ul > li.level1.nav-1-3 > a",
+    "WomenDresses": "#nav > ol > li.level0.nav-1.first.parent > ul > li.level1.nav-1-4 > a",
+    "MennewArrivals": ".nav-2-1 > .level1",
+    "Menshirts": ".nav-2-2 > .level1",
+    "MenTees": ".nav-2-3 > .level1",
+    "MenPants": ".nav-2-4 > .level1",
+    "MenBlazers": ".nav-2-5 > .level1",
+    "AccessoriesJewerly": ".nav-primary > .level0 > .level0 > .nav-3-2 > .level1",
+    "AccessoriesShoes": "#nav > ol > li.level0.nav-3.parent > ul > li.level1.nav-3-3 > a",
+    "AccessoriesBag": "#nav > ol > li.level0.nav-3.parent > ul > li.level1.nav-3-4.last > a",
+    "HDBookMusic": "#nav > ol > li.level0.nav-4.parent > ul > li.level1.nav-4-1.first > a",
+    "HDBedBath": "#nav > ol > li.level0.nav-4.parent > ul > li.level1.nav-4-2 > a",
+    "HDElectronics": "#nav > ol > li.level0.nav-4.parent > ul > li.level1.nav-4-3 > a",
+    "HDDecorative": "#nav > ol > li.level0.nav-4.parent > ul > li.level1.nav-4-4 > a",
     "addToWishlist1": ".item:nth-child(2) > .product-info > .actions > .add-to-links > li > .link-wishlist",
-    "addToWishlist2": ":nth-child(1) > .product-info > .actions > .add-to-links > :nth-child(1) > .link-wishlist",
-    "jewerelyBracelets": ".nav-primary > .level0 > .level0 > .nav-3-2 > .level1"
+    "addToWishlist2": ":nth-child(1) > .product-info > .actions > .add-to-links > :nth-child(1) > .link-wishlist"
+    
 }

@@ -25,6 +25,9 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import loginPage from '../e2e/pages/loginPage'
 import RegisterPage from '../e2e/pages/RegisterPage'
+import notification from '../e2e/components/notification'
+
+// Login
 
 Cypress.Commands.add('login', (email, pass) =>{
     loginPage.emailInput().type(email)
@@ -43,4 +46,11 @@ Cypress.Commands.add('Register', (Firstname, MiddleName, LastName, Email, Passwo
       RegisterPage.ConfirmpasswordInput().type(ConfirmPassword)
       RegisterPage.CheckUp().click()
       RegisterPage.RegisterButton().click()
+})
+
+// AddItem
+
+Cypress.Commands.add('AddItem', (Pruebas) =>{
+    cy.get(Pruebas).click({force: true});
+    notification.whishlistMessage('has been added to your wishlist');
 })
