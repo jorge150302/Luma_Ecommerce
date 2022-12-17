@@ -22,11 +22,52 @@ const whishlistMessage = addedToWhishlist => {
     cy.get('.success-msg > ul > li').should('contain', addedToWhishlist)
 }
 
+const clotherMessage = identificationClother =>{
+    cy.get('h1').should('contain', identificationClother)
+ 
+}
+
+const ItemAddShoppingCart = PageCartShopping =>{
+    cy.get('h1').should('contain',PageCartShopping)
+}
+
+const MessageDoNotSelectColor =  AddItemDonotSelectColor =>{
+    cy.get('#advice-required-entry-attribute92').should('contain', AddItemDonotSelectColor)  
+}
+
+const MessageDoNotSelectSize = AddItemDoNotSelectSize =>{
+    cy.get('.validation-advice').should('contain', AddItemDoNotSelectSize)
+}
+
+const MessageRemuvedSuccess = RemuveItemCart =>{
+    cy.get('#minicart-success-message').should('contain', RemuveItemCart);
+}
+
+const EditItemPage = EditItem =>{
+    cy.get('.value').should('contain', EditItem);
+}
+
+const ViewShoppingCart = ShoppingCart =>{
+    cy.get('h1').should('contain', ShoppingCart);
+}
+
+const CheckoutView = InformationCheckout =>{
+    cy.get('.block-title').should('contain', InformationCheckout); 
+}
+
 export default {
     checkAccount,
     checkEmail,
     checkPassword,
     checkLogin,
     checkSuccessMessage,
-    whishlistMessage
+    whishlistMessage,
+    clotherMessage,
+    ItemAddShoppingCart,
+    MessageDoNotSelectColor,
+    MessageDoNotSelectSize,
+    MessageRemuvedSuccess,
+    EditItemPage,
+    ViewShoppingCart,
+    CheckoutView
 }

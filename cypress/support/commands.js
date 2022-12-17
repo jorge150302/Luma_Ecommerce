@@ -26,6 +26,7 @@
 import loginPage from '../e2e/pages/loginPage'
 import RegisterPage from '../e2e/pages/RegisterPage'
 import notification from '../e2e/components/notification'
+import addItemsPage from '../e2e/pages/addItemsPage'
 
 // Login
 
@@ -53,4 +54,13 @@ Cypress.Commands.add('Register', (Firstname, MiddleName, LastName, Email, Passwo
 Cypress.Commands.add('AddItem', (Pruebas) =>{
     cy.get(Pruebas).click({force: true});
     notification.whishlistMessage('has been added to your wishlist');
+})
+
+// Add Item at cart
+
+Cypress.Commands.add('addtoCart',(numberItem)=>{
+    addItemsPage.button_color().click()
+    addItemsPage.button_size().click()
+    addItemsPage.qty_put().clear().type(numberItem)
+    addItemsPage.button_add().click()
 })

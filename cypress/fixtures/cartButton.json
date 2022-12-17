@@ -1,0 +1,11 @@
+
+{
+    "cart_submit":".header-minicart",
+    "information":"h1",
+    "button_checkout":".checkout-button",
+    "continue_button":"#billing-buttons-container",
+    "button_editItem":".btn-edit",
+    "remuved_item":"#minicart-success-message",
+    "edit_item": ".value"
+    
+}

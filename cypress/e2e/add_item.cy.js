@@ -1,6 +1,9 @@
 
 
-describe ('Add item at car sussccefuly', ()=>  {
+import notification from "./components/notification"
+
+
+describe ('Add item to cart sussccefuly', ()=>  {
 
     beforeEach (()=>{
        cy.visit('/customer/account/login/')
@@ -9,14 +12,14 @@ describe ('Add item at car sussccefuly', ()=>  {
        cy.fixture('addItems').as('data');
     })
 
-    it('add item car', function(){
-        
-        cy.get(this.data.headerText).should('have.text', 'Elizabeth Knit Top');
+    it('add item cart', function(){
+               
+        notification.clotherMessage('Elizabeth Knit Top');
         cy.get(this.data.button_color).click();
         cy.get(this.data.button_size).click();
-        cy.get(this.data.qty_put).clear().type (2);
+        cy.get(this.data.qty_put).clear().type (1);
         cy.get(this.data.button_add).click();   
-        cy.get(this.data.headerText).should('have.text','Shopping Cart');  
+        notification.ItemAddShoppingCart('Shopping Cart');  
 
     })
 
@@ -25,7 +28,7 @@ describe ('Add item at car sussccefuly', ()=>  {
         cy.get(this.data.button_size).click();
         cy.get(this.data.qty_put).clear().type (1);
         cy.get(this.data.button_add).click(); 
-        cy.get(this.data.requiredColor).should('have.text', 'This is a required field.')    
+        notification.MessageDoNotSelectColor('This is a required field.');    
 
     })
 
@@ -34,7 +37,7 @@ describe ('Add item at car sussccefuly', ()=>  {
         cy.get(this.data.button_size).click();
         cy.get(this.data.qty_put).clear().type (1);
         cy.get(this.data.button_add).click(); 
-        cy.get(this.data.requiredSize).should('have.text', 'This is a required field.')
+        notification.MessageDoNotSelectSize('This is a required field.');
     })
 
 })
