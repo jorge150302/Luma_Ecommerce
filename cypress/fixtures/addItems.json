@@ -10,6 +10,7 @@
     "qty_put":"#qty",
     "requiredColor":"#advice-required-entry-attribute92",
     "requiredSize":".validation-advice",
-    "headerText":"h1"
+    "headerText":"h1",
+    "viewDetails":".products-grid > .item:nth-child(1) > .product-info > .actions > .button"
     
 }
