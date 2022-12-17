@@ -16,7 +16,7 @@ describe ('Validate Cart Buttons', ()=> {
 
        cy.get(this.locators.information).should('have.text', 'My Dashboard');
        cy.get(this.locators.cart_submit).click();
-       cy.get('.remove').click({force:true});
+       cy.get(this.locators.remuved_item).click({force:true});
        notification.MessageRemuvedSuccess('Item was removed successfully.');
        
 
@@ -36,7 +36,7 @@ describe ('Validate Cart Buttons', ()=> {
 
         cy.get(this.locators.information).should('have.text', 'My Dashboard');
         cy.get(this.locators.cart_submit).click();
-        cy.get('.cart-link').click({force:true});
+        cy.get(this.locators.viewShoppingCart).click({force:true});
         notification.ViewShoppingCart('Shopping Cart');
           
     })

@@ -4,8 +4,8 @@
     "information":"h1",
     "button_checkout":".checkout-button",
     "continue_button":"#billing-buttons-container",
-    "button_editItem":".btn-edit",
-    "remuved_item":"#minicart-success-message",
-    "edit_item": ".value"
+    "button_editItem":"div > #cart-sidebar > .item > .product-details > .btn-edit",
+    "remuved_item":"div > #cart-sidebar > .item > .product-details > .remove",
+    "viewShoppingCart":".header-minicart > #header-cart > .minicart-wrapper > .minicart-actions > .cart-link"
     
 }
