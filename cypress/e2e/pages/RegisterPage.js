@@ -1,42 +1,42 @@
 const FirstNameInput = () => {
-    return cy.get('#firstname');
-  }
-  
-  const MiddleNameInput = () => {
-    return cy.get('#middlename');
-  } 
-   
-  const LastNameInput = () => {
-    return cy.get('#lastname');
-  }
+  return cy.get("#firstname");
+};
 
-  const EmailInput = () => {
-    return cy.get('#email_address');
-  }
+const MiddleNameInput = () => {
+  return cy.get("#middlename");
+};
 
-  const passwordInput = () => {
-    return cy.get('#password')
-  }
-  
-  const ConfirmpasswordInput = () => {
-    return cy.get('#confirmation')
-  }
+const LastNameInput = () => {
+  return cy.get("#lastname");
+};
 
-  const CheckUp = () => {
-    return cy.get('#is_subscribed')
-  }
+const EmailInput = () => {
+  return cy.get("#email_address");
+};
 
-  const RegisterButton = () => {
-    return cy.get('.buttons-set > .button')
-  }
-  
-  export default {
-    FirstNameInput,
-    MiddleNameInput,
-    LastNameInput,
-    EmailInput,
-    passwordInput,
-    ConfirmpasswordInput,
-    CheckUp,
-    RegisterButton
-  }
+const passwordInput = () => {
+  return cy.get("#password");
+};
+
+const ConfirmpasswordInput = () => {
+  return cy.get("#confirmation");
+};
+
+const CheckUp = () => {
+  return cy.get("#is_subscribed");
+};
+
+const RegisterButton = () => {
+  return cy.get(".buttons-set > .button");
+};
+
+export default {
+  FirstNameInput,
+  MiddleNameInput,
+  LastNameInput,
+  EmailInput,
+  passwordInput,
+  ConfirmpasswordInput,
+  CheckUp,
+  RegisterButton,
+};
