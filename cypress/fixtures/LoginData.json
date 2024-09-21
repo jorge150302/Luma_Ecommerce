@@ -1,0 +1,7 @@
+
+{
+    "MyDashboard":"My Dashboard",
+    "RequiredField": "This is a required field.",
+    "InvalidMessage" :"Invalid login or password.",
+    "ForgetMessage": "you will receive an email with a link to reset your password"
+}
